@@ -23,31 +23,31 @@ include 'assets/inc/funciones/funciones.php';
                                         <div class="row">
                                             <div class="row">
                                                 <div class="input-field col s12">
-                                                    <input type="text" name="first_names1" class="validate"
+                                                    <input disabled type="text" name="first_names1" class="validate"
                                                         value="<?php echo $array["nombres"]; ?>">
                                                 </div>
                                             </div>
                                             <div class="row">
                                                 <div class="input-field col s12">
-                                                    <input name="last_names1" type="text" class="validate"
+                                                    <input disabled name="last_names1" type="text" class="validate"
                                                         value="<?php echo $array["apelldios"]; ?>">
                                                 </div>
                                             </div>
                                             <div class="row">
                                                 <div class="input-field col s12">
-                                                    <input type="number" name="cedula1" class="validate"
+                                                    <input disabled type="number" name="cedula1" class="validate"
                                                         value="<?php echo $array["cedulas"]; ?>">
                                                 </div>
                                             </div>
                                             <div class="row">
                                                 <div class="input-field col s12">
-                                                    <input type="text" class="validate"
+                                                    <input disabled type="text" class="validate"
                                                         value="<?php echo $array["lugar"]; ?>">
                                                 </div>
                                             </div>
                                             <div class="row">
                                                 <div class="input-field col s12">
-                                                    <input type="text" class="validate"
+                                                    <input disabled type="text" class="validate"
                                                         <?php foreach ($departamentos as $departamento) :  ?>
                                                         <?php 
                                                             if ($array["departamento"] == $departamento["value"] ){ echo "value='".$departamento["escrito"] . "' "; } ?>
@@ -56,7 +56,7 @@ include 'assets/inc/funciones/funciones.php';
                                             </div>
                                             <div class="row">
                                                 <div class="input-field col s12">
-                                                    <input type="number" class="validate"
+                                                    <input disabled type="number" class="validate"
                                                         value="<?php echo $array["sueldo"]; ?>">
                                                 </div>
                                             </div>
